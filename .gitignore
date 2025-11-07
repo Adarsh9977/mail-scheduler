@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# environment files
+.env
+.env.local
+.env.*        # ignore other env files
+!.env.example # allow example env
+
+# build / distribution folders
+dist/
+build/
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
